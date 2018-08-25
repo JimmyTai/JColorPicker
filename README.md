@@ -13,9 +13,7 @@ JColorPicker provides two kind of picker, WhiteColorPicker and ColorPicker.
  >- **ColorPicker** - choosing any color
 
 
-**- WhiteColorPicker**
   <img src="https://github.com/JimmyTai/JColorPicker/blob/master/Screenshot/Android_White_ColorPicker.png?raw=true" width="270" height="480">
-**- ColorPicker**
  <img src="https://github.com/JimmyTai/JColorPicker/blob/master/Screenshot/Android_ColorPicker.png?raw=true" width="270" height="480">
 
 
