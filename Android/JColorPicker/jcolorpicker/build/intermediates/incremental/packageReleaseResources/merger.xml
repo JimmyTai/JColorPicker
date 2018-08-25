@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/src/main/res"/><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/build/generated/res/rs/release"/><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/build/generated/res/resValues/release"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/src/main/res"><file path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">JColorPicker</string></file><file path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="WhiteColorPicker">
+        <attr format="dimension" name="wcp_indicator_radius"/>
+        <attr format="float" name="wcp_indicator_activate_scale"/>
+        <attr format="dimension" name="wcp_indicator_thickness"/>
+        <attr format="dimension" name="wcp_indicator_shadow_radius"/>
+        <attr format="color" name="wcp_indicator_shadow_color"/>
+    </declare-styleable><declare-styleable name="ColorPicker">
+        <attr format="dimension" name="cp_indicator_radius"/>
+        <attr format="float" name="cp_indicator_activate_scale"/>
+        <attr format="dimension" name="cp_indicator_thickness"/>
+        <attr format="dimension" name="cp_indicator_shadow_radius"/>
+        <attr format="color" name="cp_indicator_shadow_color"/>
+    </declare-styleable></file></source><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/build/generated/res/rs/release"/><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/build/generated/res/resValues/release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/src/release/res"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="/Users/JimmyTai/Android/JimmyTai/ColorPicker/jcolorpicker/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ColorPicker"><attr format="dimension" name="cp_indicator_radius"/><attr format="float" name="cp_indicator_activate_scale"/><attr format="dimension" name="cp_indicator_thickness"/><attr format="dimension" name="cp_indicator_shadow_radius"/><attr format="color" name="cp_indicator_shadow_color"/></declare-styleable><declare-styleable name="WhiteColorPicker"><attr format="dimension" name="wcp_indicator_radius"/><attr format="float" name="wcp_indicator_activate_scale"/><attr format="dimension" name="wcp_indicator_thickness"/><attr format="dimension" name="wcp_indicator_shadow_radius"/><attr format="color" name="wcp_indicator_shadow_color"/></declare-styleable></configuration></mergedItems></merger>

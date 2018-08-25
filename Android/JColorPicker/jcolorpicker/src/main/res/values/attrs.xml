@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WhiteColorPicker">
+        <attr name="wcp_indicator_radius" format="dimension"/>
+        <attr name="wcp_indicator_activate_scale" format="float"/>
+        <attr name="wcp_indicator_thickness" format="dimension"/>
+        <attr name="wcp_indicator_shadow_radius" format="dimension"/>
+        <attr name="wcp_indicator_shadow_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorPicker">
+        <attr name="cp_indicator_radius" format="dimension"/>
+        <attr name="cp_indicator_activate_scale" format="float"/>
+        <attr name="cp_indicator_thickness" format="dimension"/>
+        <attr name="cp_indicator_shadow_radius" format="dimension"/>
+        <attr name="cp_indicator_shadow_color" format="color"/>
+    </declare-styleable>
+</resources>
