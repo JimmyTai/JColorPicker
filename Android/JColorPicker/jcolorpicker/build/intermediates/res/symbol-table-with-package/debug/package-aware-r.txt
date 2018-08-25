@@ -9,7 +9,6 @@ int attr wcp_indicator_radius 0x7f040007
 int attr wcp_indicator_shadow_color 0x7f040008
 int attr wcp_indicator_shadow_radius 0x7f040009
 int attr wcp_indicator_thickness 0x7f04000a
-int string app_name 0x7f150001
 int[] styleable ColorPicker { 0x7f040001, 0x7f040002, 0x7f040003, 0x7f040004, 0x7f040005 }
 int styleable ColorPicker_cp_indicator_activate_scale 0
 int styleable ColorPicker_cp_indicator_radius 1

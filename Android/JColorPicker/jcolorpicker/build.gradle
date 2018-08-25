@@ -1,9 +1,16 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'jimmytai'
+    groupId = 'com.jimmytai.library'
+    artifactId = 'jcolorpicker'
+    publishVersion = '1.0.0'
+    desc = 'An open source color picker for Android. The color picker widget style comes from Yeelight App which is an IoT LED bulb app.'
+}
 
 android {
     compileSdkVersion 27
-
-
 
     defaultConfig {
         minSdkVersion 21
