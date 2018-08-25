@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.jimmytai.colorpicker_demo"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.jimmytai.library:android-utils:2.2.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation project(':jcolorpicker')
+    implementation ('com.github.Jay-Goo:RangeSeekBar:v2.0.4') {
+        exclude group: "com.android.support",module: "animated-vector-drawable"
+        exclude group: "com.android.support",module: "appcompat-v7"
+    }
+}
