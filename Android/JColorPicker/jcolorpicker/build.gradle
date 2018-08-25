@@ -7,6 +7,7 @@ publish {
     artifactId = 'jcolorpicker'
     publishVersion = '1.0.0'
     desc = 'An open source color picker for Android. The color picker widget style comes from Yeelight App which is an IoT LED bulb app.'
+    website = 'https://github.com/JimmyTai/JColorPicker'
 }
 
 android {

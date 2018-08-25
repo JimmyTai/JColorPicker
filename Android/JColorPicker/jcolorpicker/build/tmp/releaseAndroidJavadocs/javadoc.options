@@ -1,0 +1,8 @@
+-classpath '/Users/JimmyTai/Library/Android/sdk/platforms/android-27/android.jar:/Users/JimmyTai/App/JColorPicker/Android/JColorPicker/jcolorpicker/build/generated/source/apt/release:/Users/JimmyTai/App/JColorPicker/Android/JColorPicker/jcolorpicker/build/intermediates/classes/release'
+-d '/Users/JimmyTai/App/JColorPicker/Android/JColorPicker/jcolorpicker/build/docs/javadoc'
+-doctitle 'jcolorpicker API'
+-quiet 
+-windowtitle 'jcolorpicker API'
+'/Users/JimmyTai/App/JColorPicker/Android/JColorPicker/jcolorpicker/src/main/java/com/jimmytai/jcolorpicker/ColorPicker.java'
+'/Users/JimmyTai/App/JColorPicker/Android/JColorPicker/jcolorpicker/src/main/java/com/jimmytai/jcolorpicker/WhiteColorPicker.java'
+'/Users/JimmyTai/App/JColorPicker/Android/JColorPicker/jcolorpicker/src/main/java/com/jimmytai/jcolorpicker/ColorIndicatorView.java'

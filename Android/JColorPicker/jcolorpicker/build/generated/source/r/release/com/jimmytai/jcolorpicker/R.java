@@ -19,9 +19,6 @@ public final class R {
         public static int wcp_indicator_shadow_radius = 0x7f040009;
         public static int wcp_indicator_thickness = 0x7f04000a;
     }
-    public static final class string {
-        public static int app_name = 0x7f150001;
-    }
     public static final class styleable {
         public static int[] ColorPicker = { 0x7f040001, 0x7f040002, 0x7f040003, 0x7f040004, 0x7f040005 };
         public static int ColorPicker_cp_indicator_activate_scale = 0;
