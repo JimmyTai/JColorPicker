@@ -1,0 +1,16 @@
+PODS:
+  - JColorPicker (0.1.0)
+
+DEPENDENCIES:
+  - JColorPicker (from `../`)
+
+EXTERNAL SOURCES:
+  JColorPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JColorPicker: 05b6ca3704ce2823a81209f47b9a3aeade3c6cda
+
+PODFILE CHECKSUM: bcae282e9ef1695963d4e8c775c70310088ab14a
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JColorPicker_Example' do
+  pod 'JColorPicker', :path => '../'
+
+  target 'JColorPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

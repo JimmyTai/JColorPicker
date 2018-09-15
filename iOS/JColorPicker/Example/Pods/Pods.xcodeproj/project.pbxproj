@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DCC955E193E5A930D85AAA658DF0170 /* JColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D13F78301D17B842DE34919E0FF3E379 /* JColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E013432FEA3F108525A4991F480E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		439D6851395F8C8BCF284EF0B41421BD /* JColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12126589292D214D22F5A04D8A7BCA27 /* JColorPicker-dummy.m */; };
+		5564CC90393C8C52655632B80DADFE58 /* Pods-JColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B50EF8F79C808B3A6F4651CB57E1005 /* Pods-JColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EED1F7429B2E1A5022ABCA083D4A976 /* Pods-JColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E76181C5BFDBFC88D017A975263E866C /* Pods-JColorPicker_Example-dummy.m */; };
+		6556B24FA18EBC7FB0BB9A234952EA11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9ABB0ECA3CD667264E3583231A0ACC46 /* Pods-JColorPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F855BF55348D71EF3F4163AFCD00D4D5 /* Pods-JColorPicker_Tests-dummy.m */; };
+		C785A84F9DAB33A75E54C6A82A82068C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D9BB3BA7214CFB62002815ED /* HSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3BA1214CFB62002815ED /* HSV.swift */; };
+		D9BB3BA8214CFB62002815ED /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3BA2214CFB62002815ED /* ColorPicker.swift */; };
+		D9BB3BA9214CFB62002815ED /* ColorSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3BA3214CFB62002815ED /* ColorSquareView.swift */; };
+		D9BB3BAA214CFB62002815ED /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3BA4214CFB62002815ED /* RGB.swift */; };
+		D9BB3BAB214CFB62002815ED /* WhiteColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3BA5214CFB62002815ED /* WhiteColorPicker.swift */; };
+		D9BB3BAC214CFB62002815ED /* ColorIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3BA6214CFB62002815ED /* ColorIndicatorView.swift */; };
+		E06A6717F4C432A08F376A15B66444EE /* Pods-JColorPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD3C1C15422F0D42E3CE178111511 /* Pods-JColorPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C27B5057162DE7ECFF78D74AF5682FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4312E00147019E8D269BBF23D9F6545B;
+			remoteInfo = JColorPicker;
+		};
+		58D94549F1476FEDEBD13341F6182C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DF13504626034B406264028A5FABDC;
+			remoteInfo = "Pods-JColorPicker_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12126589292D214D22F5A04D8A7BCA27 /* JColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JColorPicker-dummy.m"; sourceTree = "<group>"; };
+		154A091D100F7F24E4B4567569936A17 /* Pods-JColorPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JColorPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		180FD3C1C15422F0D42E3CE178111511 /* Pods-JColorPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JColorPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1AFA949F694382E5DA2A34C615ADC3D7 /* Pods-JColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B59C277EA0D73849F254D14BE9AC4F9 /* JColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JColorPicker.xcconfig; sourceTree = "<group>"; };
+		2FFEA5199F9F3575BA9BB6BEEEEB7827 /* Pods-JColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		3949DCEDB9BC64BB25C21A52E81DA2EE /* Pods_JColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B50EF8F79C808B3A6F4651CB57E1005 /* Pods-JColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		3EB63A60C0B77E2B3175395321151986 /* JColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JColorPicker.modulemap; sourceTree = "<group>"; };
+		3F7EC6085F8218F42FB64BF65A776C81 /* JColorPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JColorPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		53DB6723098469CDC7EDC4C9E5F6FBD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546F5B6A3399E10C95612E9B201C4AA0 /* Pods-JColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		577EA59A5D2121057B3079B6A8D279A9 /* Pods-JColorPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JColorPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6079D7CB7C0F2D745F57F7ACC994C6DA /* JColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E55C4C97B1238C49B52FAA91095DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		77FA0E149C364425AFA53E0A97F45E4D /* JColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9822CA6C62C3D0E021B5DBE0DBA168EC /* Pods-JColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D9F02CB920CBEC8104328979D405FDB /* Pods-JColorPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JColorPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		A30FAC0407F7B3F82AA2C7FE7129B52A /* Pods-JColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A31B1C978ECA34D72BCC6522333F4FCD /* Pods_JColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD70D3AA3DBC66DE1F21C5C5F225DEEA /* Pods-JColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D04F8ADA408B0A7D82127BE69F03341F /* Pods-JColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D13F78301D17B842DE34919E0FF3E379 /* JColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		D3DF19DEEF86AEABA8BC0A3543CDD5F7 /* Pods-JColorPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JColorPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		D62618F717CB8CC9ED27085B7292FA82 /* Pods-JColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JColorPicker_Example.modulemap"; sourceTree = "<group>"; };
+		D785018E04DE1EBFB91BFDBFC3D5D671 /* Pods-JColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9BB3BA1214CFB62002815ED /* HSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSV.swift; path = JColorPicker/Classes/HSV.swift; sourceTree = "<group>"; };
+		D9BB3BA2214CFB62002815ED /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPicker.swift; path = JColorPicker/Classes/ColorPicker.swift; sourceTree = "<group>"; };
+		D9BB3BA3214CFB62002815ED /* ColorSquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorSquareView.swift; path = JColorPicker/Classes/ColorSquareView.swift; sourceTree = "<group>"; };
+		D9BB3BA4214CFB62002815ED /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGB.swift; path = JColorPicker/Classes/RGB.swift; sourceTree = "<group>"; };
+		D9BB3BA5214CFB62002815ED /* WhiteColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhiteColorPicker.swift; path = JColorPicker/Classes/WhiteColorPicker.swift; sourceTree = "<group>"; };
+		D9BB3BA6214CFB62002815ED /* ColorIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorIndicatorView.swift; path = JColorPicker/Classes/ColorIndicatorView.swift; sourceTree = "<group>"; };
+		E02F03B902096C79694E177B49442851 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DEEEBF174A6DF52876FE235AC861CB /* Pods-JColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E76181C5BFDBFC88D017A975263E866C /* Pods-JColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		F4C097E550E8DBFE978E31B3559463E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F855BF55348D71EF3F4163AFCD00D4D5 /* Pods-JColorPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JColorPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1735D44C476C398CDE3B13F9B43A0463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6556B24FA18EBC7FB0BB9A234952EA11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F260D6EF4ABAF1E5A03662399781A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C785A84F9DAB33A75E54C6A82A82068C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D2B11A9B749A35FD12C98D50747676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E013432FEA3F108525A4991F480E56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158CE6A5492C12EC1728D8DD931E5493 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A2DE2BCA552B6E1A3CFF36630BDFFBB /* Pods-JColorPicker_Example */,
+				6002AFADAC32A36AA3639DB74E91A04B /* Pods-JColorPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B63ECAA5542583C3F87B57A083B9126 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B77B818DA70B5E43017C0E0C18B3C80F /* JColorPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4DFE555EA0087E80979C872287874181 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EC6085F8218F42FB64BF65A776C81 /* JColorPicker.podspec */,
+				660E55C4C97B1238C49B52FAA91095DE /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5A2DE2BCA552B6E1A3CFF36630BDFFBB /* Pods-JColorPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E02F03B902096C79694E177B49442851 /* Info.plist */,
+				D62618F717CB8CC9ED27085B7292FA82 /* Pods-JColorPicker_Example.modulemap */,
+				CD70D3AA3DBC66DE1F21C5C5F225DEEA /* Pods-JColorPicker_Example-acknowledgements.markdown */,
+				9822CA6C62C3D0E021B5DBE0DBA168EC /* Pods-JColorPicker_Example-acknowledgements.plist */,
+				E76181C5BFDBFC88D017A975263E866C /* Pods-JColorPicker_Example-dummy.m */,
+				D04F8ADA408B0A7D82127BE69F03341F /* Pods-JColorPicker_Example-frameworks.sh */,
+				D3DF19DEEF86AEABA8BC0A3543CDD5F7 /* Pods-JColorPicker_Example-resources.sh */,
+				3B50EF8F79C808B3A6F4651CB57E1005 /* Pods-JColorPicker_Example-umbrella.h */,
+				A30FAC0407F7B3F82AA2C7FE7129B52A /* Pods-JColorPicker_Example.debug.xcconfig */,
+				546F5B6A3399E10C95612E9B201C4AA0 /* Pods-JColorPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-JColorPicker_Example";
+			path = "Target Support Files/Pods-JColorPicker_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6002AFADAC32A36AA3639DB74E91A04B /* Pods-JColorPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				53DB6723098469CDC7EDC4C9E5F6FBD3 /* Info.plist */,
+				2FFEA5199F9F3575BA9BB6BEEEEB7827 /* Pods-JColorPicker_Tests.modulemap */,
+				D785018E04DE1EBFB91BFDBFC3D5D671 /* Pods-JColorPicker_Tests-acknowledgements.markdown */,
+				577EA59A5D2121057B3079B6A8D279A9 /* Pods-JColorPicker_Tests-acknowledgements.plist */,
+				F855BF55348D71EF3F4163AFCD00D4D5 /* Pods-JColorPicker_Tests-dummy.m */,
+				154A091D100F7F24E4B4567569936A17 /* Pods-JColorPicker_Tests-frameworks.sh */,
+				9D9F02CB920CBEC8104328979D405FDB /* Pods-JColorPicker_Tests-resources.sh */,
+				180FD3C1C15422F0D42E3CE178111511 /* Pods-JColorPicker_Tests-umbrella.h */,
+				1AFA949F694382E5DA2A34C615ADC3D7 /* Pods-JColorPicker_Tests.debug.xcconfig */,
+				E4DEEEBF174A6DF52876FE235AC861CB /* Pods-JColorPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-JColorPicker_Tests";
+			path = "Target Support Files/Pods-JColorPicker_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4B63ECAA5542583C3F87B57A083B9126 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCE5576E6A0DFB845035F776C80054A9 /* Products */,
+				158CE6A5492C12EC1728D8DD931E5493 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0A830B779A5078FD0EA55513EAE5AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C097E550E8DBFE978E31B3559463E0 /* Info.plist */,
+				3EB63A60C0B77E2B3175395321151986 /* JColorPicker.modulemap */,
+				2B59C277EA0D73849F254D14BE9AC4F9 /* JColorPicker.xcconfig */,
+				12126589292D214D22F5A04D8A7BCA27 /* JColorPicker-dummy.m */,
+				77FA0E149C364425AFA53E0A97F45E4D /* JColorPicker-prefix.pch */,
+				D13F78301D17B842DE34919E0FF3E379 /* JColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JColorPicker";
+			sourceTree = "<group>";
+		};
+		B77B818DA70B5E43017C0E0C18B3C80F /* JColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB3BA6214CFB62002815ED /* ColorIndicatorView.swift */,
+				D9BB3BA2214CFB62002815ED /* ColorPicker.swift */,
+				D9BB3BA3214CFB62002815ED /* ColorSquareView.swift */,
+				D9BB3BA1214CFB62002815ED /* HSV.swift */,
+				D9BB3BA4214CFB62002815ED /* RGB.swift */,
+				D9BB3BA5214CFB62002815ED /* WhiteColorPicker.swift */,
+				4DFE555EA0087E80979C872287874181 /* Pod */,
+				9F0A830B779A5078FD0EA55513EAE5AD /* Support Files */,
+			);
+			name = JColorPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE5576E6A0DFB845035F776C80054A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6079D7CB7C0F2D745F57F7ACC994C6DA /* JColorPicker.framework */,
+				A31B1C978ECA34D72BCC6522333F4FCD /* Pods_JColorPicker_Example.framework */,
+				3949DCEDB9BC64BB25C21A52E81DA2EE /* Pods_JColorPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BFA7C0835C2B2AC90AFBEC639DC0DE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCC955E193E5A930D85AAA658DF0170 /* JColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A059F35FD571F6FA9FFF4E1202AC09C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5564CC90393C8C52655632B80DADFE58 /* Pods-JColorPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8464338550C6EE20E68C257AC29452 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06A6717F4C432A08F376A15B66444EE /* Pods-JColorPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4312E00147019E8D269BBF23D9F6545B /* JColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5EB0125A414BAE1A0923D05E8FC841 /* Build configuration list for PBXNativeTarget "JColorPicker" */;
+			buildPhases = (
+				B3BFB8572109F5424FB7F9C781997E7D /* Sources */,
+				29F260D6EF4ABAF1E5A03662399781A5 /* Frameworks */,
+				2BFA7C0835C2B2AC90AFBEC639DC0DE6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JColorPicker;
+			productName = JColorPicker;
+			productReference = 6079D7CB7C0F2D745F57F7ACC994C6DA /* JColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99DF13504626034B406264028A5FABDC /* Pods-JColorPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D359D25C7838FB883D8FB85F97AEBE /* Build configuration list for PBXNativeTarget "Pods-JColorPicker_Example" */;
+			buildPhases = (
+				AB96210374FE5EE7AE0825DC39CE080B /* Sources */,
+				C7D2B11A9B749A35FD12C98D50747676 /* Frameworks */,
+				3A059F35FD571F6FA9FFF4E1202AC09C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD196BABA5ACE603A15AA3F189656D88 /* PBXTargetDependency */,
+			);
+			name = "Pods-JColorPicker_Example";
+			productName = "Pods-JColorPicker_Example";
+			productReference = A31B1C978ECA34D72BCC6522333F4FCD /* Pods_JColorPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABF5BBF1FE0516BA5190EA696C5DCAA9 /* Pods-JColorPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8187D84E387E975973389D8825A1045 /* Build configuration list for PBXNativeTarget "Pods-JColorPicker_Tests" */;
+			buildPhases = (
+				2CF4410CF867E166E3479879710FC53F /* Sources */,
+				1735D44C476C398CDE3B13F9B43A0463 /* Frameworks */,
+				EB8464338550C6EE20E68C257AC29452 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4A43FB2D14C825F0E83E161A3B5E3D /* PBXTargetDependency */,
+			);
+			name = "Pods-JColorPicker_Tests";
+			productName = "Pods-JColorPicker_Tests";
+			productReference = 3949DCEDB9BC64BB25C21A52E81DA2EE /* Pods_JColorPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					4312E00147019E8D269BBF23D9F6545B = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCE5576E6A0DFB845035F776C80054A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4312E00147019E8D269BBF23D9F6545B /* JColorPicker */,
+				99DF13504626034B406264028A5FABDC /* Pods-JColorPicker_Example */,
+				ABF5BBF1FE0516BA5190EA696C5DCAA9 /* Pods-JColorPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF4410CF867E166E3479879710FC53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABB0ECA3CD667264E3583231A0ACC46 /* Pods-JColorPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96210374FE5EE7AE0825DC39CE080B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EED1F7429B2E1A5022ABCA083D4A976 /* Pods-JColorPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BFB8572109F5424FB7F9C781997E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BB3BAA214CFB62002815ED /* RGB.swift in Sources */,
+				D9BB3BAC214CFB62002815ED /* ColorIndicatorView.swift in Sources */,
+				439D6851395F8C8BCF284EF0B41421BD /* JColorPicker-dummy.m in Sources */,
+				D9BB3BA7214CFB62002815ED /* HSV.swift in Sources */,
+				D9BB3BAB214CFB62002815ED /* WhiteColorPicker.swift in Sources */,
+				D9BB3BA8214CFB62002815ED /* ColorPicker.swift in Sources */,
+				D9BB3BA9214CFB62002815ED /* ColorSquareView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4A43FB2D14C825F0E83E161A3B5E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JColorPicker_Example";
+			target = 99DF13504626034B406264028A5FABDC /* Pods-JColorPicker_Example */;
+			targetProxy = 58D94549F1476FEDEBD13341F6182C8E /* PBXContainerItemProxy */;
+		};
+		CD196BABA5ACE603A15AA3F189656D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JColorPicker;
+			target = 4312E00147019E8D269BBF23D9F6545B /* JColorPicker */;
+			targetProxy = 2C27B5057162DE7ECFF78D74AF5682FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B109D5DC9F6FFA37D52F71FD2BF8298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546F5B6A3399E10C95612E9B201C4AA0 /* Pods-JColorPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JColorPicker_Example/Pods-JColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D274BA240FC8AB7CD31B0E90FFFCEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFA949F694382E5DA2A34C615ADC3D7 /* Pods-JColorPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JColorPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JColorPicker_Tests/Pods-JColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6408AAB8AB46FE178140FEA251E57520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DEEEBF174A6DF52876FE235AC861CB /* Pods-JColorPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JColorPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JColorPicker_Tests/Pods-JColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E622B963842350ECB02C1524AE9C85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B59C277EA0D73849F254D14BE9AC4F9 /* JColorPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JColorPicker/JColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JColorPicker/JColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = JColorPicker;
+				PRODUCT_NAME = JColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E688EC3C376CAB1B14FE55EBB8E8B62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30FAC0407F7B3F82AA2C7FE7129B52A /* Pods-JColorPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JColorPicker_Example/Pods-JColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE0CBA07DD55C35EADC131778CF5F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B59C277EA0D73849F254D14BE9AC4F9 /* JColorPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JColorPicker/JColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JColorPicker/JColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = JColorPicker;
+				PRODUCT_NAME = JColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D359D25C7838FB883D8FB85F97AEBE /* Build configuration list for PBXNativeTarget "Pods-JColorPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E688EC3C376CAB1B14FE55EBB8E8B62C /* Debug */,
+				2B109D5DC9F6FFA37D52F71FD2BF8298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5EB0125A414BAE1A0923D05E8FC841 /* Build configuration list for PBXNativeTarget "JColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E622B963842350ECB02C1524AE9C85F /* Debug */,
+				FE0CBA07DD55C35EADC131778CF5F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8187D84E387E975973389D8825A1045 /* Build configuration list for PBXNativeTarget "Pods-JColorPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D274BA240FC8AB7CD31B0E90FFFCEB1 /* Debug */,
+				6408AAB8AB46FE178140FEA251E57520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
