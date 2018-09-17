@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JColorPicker/Classes/'
+  s.source_files = 'JColorPicker/Classes/**/*'
   
   # s.resource_bundles = {
   #   'JColorPicker' => ['JColorPicker/Assets/*.png']
