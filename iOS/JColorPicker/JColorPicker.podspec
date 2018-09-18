@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JColorPicker/Classes/**'
+  s.source_files = 'iOS/JColorPicker/JColorPicker/Classes/**'
   
   # s.resource_bundles = {
   #   'JColorPicker' => ['JColorPicker/Assets/*.png']
